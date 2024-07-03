@@ -13,8 +13,9 @@ p {
     font-size: 48px;
     font-weight: 700;
     color: #6C7C77;
-    padding: 0 16px;
+    padding: 16px;
     padding-bottom: 16px;
+    background-color: #ccd8d4;
 }
 
 .body {
@@ -22,7 +23,7 @@ p {
     justify-content: space-between;
 }
 
-.container {
+.sidebar {
     align-items: center;
     width: 150px;
     flex-shrink: 0;
@@ -48,10 +49,11 @@ a {
 }
 
 .content {
-    padding: 0 16px;
+    padding: 16px;
     flex: 1;
     display: flex;
     flex-wrap: wrap;
+    text-align: justify;
 }
 
 .footer {
