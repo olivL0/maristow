@@ -11,13 +11,14 @@ p {
 }
 
 .header {
-    font-size: 48px;
+    font-size: 64px;
     font-weight: 700;
-    color: #6C7C77;
+    color: #6b1019;
     padding: 16px;
     padding-bottom: 16px;
-    background-color: #ccd8d4;
-    border-bottom: 2px solid #6C7C77
+    background-color: #6C7C77;
+    border-bottom: 2px solid #6C7C77;
+    text-align: center;
 }
 
 .body {
@@ -40,14 +41,15 @@ ul {
 }
 
 li {
-    padding-bottom: 8px;
+    padding-bottom: 50px;
     padding-left: 16px;
 }
 
 a {
     color: #6C7C77;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .content {
@@ -56,12 +58,13 @@ a {
     display: flex;
     flex-wrap: wrap;
     text-align: justify;
+    align-items: baseline;
 }
 
 .footer {
     height: 80px;
     background-color: #6C7C77;
-    color: white;
+    color: #6b1019;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,12 +77,13 @@ a {
 
 .contact {
     font-weight: 800;
+    font-size: 20px;
 }
 
 .info {
-    font-size: 14px;
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 16px;
+    gap: 400px;
 }
